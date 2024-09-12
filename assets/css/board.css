@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    font-family: 'Calibri', serif;
+}
+
+.header{
+    padding: 7px 0;
+    background-color: #f3990c;
+}
+
+.header .logo{
+    font-size: 30px;
+    font-family: cursive, calibri, serif;
+    text-align: center;
+}
+
+.header .nav{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.header .nav a{
+    font-family: Courier;
+    color: #b70111;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header .nav a:hover{
+    color: blue;
+}
+
+.container{
+    padding: 10px 0;
+}
+.container h1{
+    text-decoration: underline;
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+.first-wrapper{
+    margin-top: 5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 15px;
+}
+.second-wrapper{
+    margin-top: 5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 15px;
+}
+.content{
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Calibri';
+    width: 45%;
+}
+.media{
+    width: 45%;
+}
+.media img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.feedbacks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.single-feedback{
+    width: 100vw;
+    padding: 8px 10px;
+}
+.feedbacker{
+    padding: 5px 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.single-feedback p{
+    padding: 9px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.single-feedback-red{
+    width: 100vw;
+    padding: 8px 10px;
+    background-color: #ff6969;
+    margin: 10px;
+}
+
+.single-feedback-red span{
+    text-align: center;
+    font-size: 20px;
+}
+
+.flinks{
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Calibri', serif;
+}
+.flinks a{
+    margin: 0 10px;
+}
+.feedbacks h4{
+    font-size: 25px;
+    margin: 10px 0;
+}
+.fbform{
+    text-align: center;
+    width: 350px;
+}
+form{
+    width: 100%;
+}
+form label{
+    font-size: 22px;
+}
+form textarea{
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+form button{
+    margin-top: 10px;
+    outline: none;
+    padding: 4px 5px;
+    font-size: 18px;
+}
+
+.footer{
+    background: black;
+    text-align: center;
+}
+
+.links{
+    margin: 10px 0;
+}
+.links a{
+    padding: 5px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: lightblue;
+}
+
+.copy{
+    margin: 10px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightgray;
+}

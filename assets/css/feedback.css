@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    font-family: 'Calibri', serif;
+}
+
+.header{
+    padding: 7px 0;
+    background-color: #f3990c;
+}
+
+.header .logo{
+    font-size: 30px;
+    font-family: cursive, calibri, serif;
+    text-align: center;
+}
+
+.header .nav{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.header .nav a{
+    font-family: Courier;
+    color: #b70111;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header .nav a:hover{
+    color: blue;
+}
+
+.container{
+    padding: 8px;
+    
+}
+form{
+    width: 100%;
+}
+.container h4{
+    font-size: 27px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+label{
+    padding: 5px 7px;
+    font-size: 24px;
+    width: 100%;
+    display: block;
+}
+
+textarea{
+    width: 100%;
+}
+button{
+    margin-top: 10px;
+    outline: none;
+    padding: 4px 5px;
+    font-size: 18px;
+}
+
+
+.footer{
+    background: black;
+    text-align: center;
+}
+
+.links{
+    margin: 10px 0;
+}
+.links a{
+    padding: 5px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: lightblue;
+}
+
+.copy{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightgray;
+}

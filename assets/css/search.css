@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    font-family: 'Calibri', serif;
+}
+
+.header{
+    padding: 7px 0;
+    background-color: #f3990c;
+}
+
+.header .logo{
+    font-size: 30px;
+    font-family: cursive, calibri, serif;
+    text-align: center;
+}
+
+.header .nav{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.header .nav a{
+    font-family: Courier;
+    color: #b70111;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header .nav a:hover{
+    color: blue;
+}
+
+.container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container form{
+    margin: 10px;
+    width: 400px;
+    text-align: center;
+}
+
+.container form label{
+    font-size: 20px;
+    text-align: center;
+}
+.container form input{
+    width: 100%;
+    font-size: 20px;
+    padding: 5px 8px;
+    outline: none;
+    margin: 5px 0 ;
+}
+
+.container form button{
+    margin-top: 10px;
+    outline: none;
+    padding: 4px 5px;
+    font-size: 18px;
+}
+
+.data{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 4px ;
+}
+
+.box{
+    text-decoration: none;
+    width: 250px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 8px 10px;
+    background-color: lightgray;
+}
+
+.box h4{
+    margin-bottom: 10px;
+    text-decoration: underline;
+    font-size: 25px;
+    color: black;
+}
+
+.box p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.results{
+    font-size: 26px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.footer{
+    background: black;
+    text-align: center;
+}
+
+.links{
+    margin: 10px 0;
+}
+.links a{
+    padding: 5px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: lightblue;
+}
+
+.copy{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightgray;
+}

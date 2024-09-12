@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    font-family: 'Calibri', serif;
+}
+
+.header{
+    padding: 7px 0;
+    background-color: #f3990c;
+}
+
+.header .logo{
+    font-size: 30px;
+    font-family: cursive, calibri, serif;
+    text-align: center;
+}
+
+.header .nav{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.header .nav a{
+    font-family: Courier;
+    color: #b70111;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header .nav a:hover{
+    color: blue;
+}
+
+.container{
+    padding: 10px;
+    background: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.wrapper{
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.wrapper h5{
+    width: max-content;
+    margin: 10px 0;
+    font-size: 30px;
+    font-family: Verdana,sans-serif;
+}
+
+input{
+    width: 100%;
+    outline: none;
+    padding: 4px 5px;
+    font-size: 18px;
+}
+
+label{
+    font-size: 17px;
+    font-family: Georgia,Times, serif;
+}
+
+button{
+    margin-top: 10px;
+    outline: none;
+    padding: 4px 5px;
+    font-size: 18px;
+}
+
+.footer{
+    background: black;
+    text-align: center;
+}
+
+.links{
+    margin: 10px 0;
+}
+.links a{
+    padding: 5px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: lightblue;
+}
+
+.copy{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightgray;
+}

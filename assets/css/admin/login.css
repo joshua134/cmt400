@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    font-family: 'Calibri', serif;
+}
+
+.container{
+    padding: 10px;
+    background: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.wrapper{
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.wrapper h5{
+    margin: 10px 0;
+    font-size: 30px;
+    font-family: Verdana,sans-serif;
+}
+
+input{
+    width: 100%;
+    outline: none;
+    padding: 4px 5px;
+    font-size: 18px;
+}
+
+.input-group{
+    width: 100%;
+    position: relative;
+}
+.input-group span{
+    padding: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+label{
+    font-size: 17px;
+    font-family: Georgia,Times, serif;
+}
+
+button{
+    margin-top: 10px;
+    outline: none;
+    padding: 4px 5px;
+    font-size: 18px;
+}
